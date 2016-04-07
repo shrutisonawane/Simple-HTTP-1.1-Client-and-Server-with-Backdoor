@@ -1,0 +1,10 @@
+##############################################################
+Author: Shruti Sonawane
+ASU ID: 1209340908
+Course: CSE 545
+Assignment 1-normal_web_server.py
+##############################################################
+
+-the server program normal_web_server.py behaves like a normal basic HTTP 1.1 server, which executes commands on the linux terminal as parsed from the url.
+-The program returns a valid HTTP 404 Not Found error message if an incorrect command is specified or the url does not contain backdoor command (/exec/<cmd>)
+ 
